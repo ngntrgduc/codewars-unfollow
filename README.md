@@ -1,5 +1,5 @@
 # codewars-unfollow
-Unfollow all of your allies on Codewars
+Unfollow all of your allies/following on Codewars
 
 # How to use
 1. Clone this repository
@@ -22,5 +22,5 @@ python main.py
 ```
 # Note
 - I use selenium with Microsoft Edge. If you want to use another browser, please check out [webdriver_manager](https://github.com/SergeyPirogov/webdriver_manager).
-- There may be slow because needs 4 seconds to remove 1 following. You can delete `sleep` command to make it faster. But you may not unfollow some users, and the codewars site may block you (I tried and it block me 3 - 4 times).
-- When the following is less than 15, you should remove them by yourself. (Sorry for that :<)
+- There may be slow because needs 4 seconds to remove 1 following. You can delete `sleep` command to make it faster. But you may not unfollow some users, and the codewars site may block you.
+- When the following is less than 15, you have to remove them by yourself. (Sorry for that :<)
